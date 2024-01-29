@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Say Yes</title>
+        <link rel="stylesheet" href="chomu.css">
+    </head>
+    <body style="background-color: rgba(255, 192, 203, 0.588);">
+        <div class="page">
+            <h1 class="daughter">Will you be my valentine?<br>💘😁🥰✨</h1>
+            <p id="change">choose one</p>
+        <a href="chomu4.html"><button id="yesbut" type="button">Yes😁</button></a>
+        <button id="NoBut" type="button" onmouseover="fun()">No🥲</button>
+        </div>
+    </body>
+</html>
+
+<script>
+    function fun(){
+        document.getElementById('change').innerHTML = "And yes, I did that irritating hilne wali cheej😂";
+        document.getElementById('NoBut').style.top = ((Math.random())*100)+`%`;
+        document.getElementById('NoBut').style.left = ((Math.random())*100)+`%`;
+        document.getElementById('NoBut').innerHTML= "Why😭";
+    }
+</script>

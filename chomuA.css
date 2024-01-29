@@ -1,0 +1,22 @@
+
+
+html, body, .container {
+    height: 100%;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page{
+    text-align: center;
+}
+
+.daughter{
+    padding-top: 15%;
+    color: rgb(190, 3, 34);
+}
+
